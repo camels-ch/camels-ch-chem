@@ -20,3 +20,4 @@ results\*.csv
 *.zip
 *json
 *.shp.xml
+!environments/requirements.txt
