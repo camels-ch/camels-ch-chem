@@ -6,7 +6,7 @@ This repository encompasses all the code used to derive the CAMELS-CH-Chem datas
 
 _CAMELS-CH-Chem_ is an extension of CAMELS-CH (Catchment Attributes and Meteorology for Large-sample Studies in Switzerland), incorporating up to 40 water quality parameters for 115 catchments across Switzerland.
 
-The EStreams dataset can be found [here](https://doi.org/10.5281/zenodo.14980027), and is currently described by the [publication](xx).
+The dataset can be found [here](https://doi.org/10.5281/zenodo.14980027), and is currently described by the [publication](xx).
 
 ## About this repository 
 
@@ -33,18 +33,18 @@ To reproduce the Python environment for this project, you can use either the `en
 ### Using `environment.yml` (Conda)
 
 1. Clone the repository:
-   `git clone https://github.com/thiagovmdon/EStreams.git`
+   `git clone https://github.com/camels-ch/camels-ch-chem.git`
 
 2. Create the conda environment:
    `conda env create -f environment.yml`
 
 3. Activate the conda environment:
-   `conda activate estreams`
+   `conda activate camelschem`
 
 ### Using `requirements.txt` (pip)
 
 1. Clone the repository:
-   `git clone https://github.com/thiagovmdon/EStreams.git`
+   `git clone https://github.com/camels-ch/camels-ch-chem.git`
 
 2. Create a virtual environment:
    `python -m venv venv`
